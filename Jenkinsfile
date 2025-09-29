@@ -2,7 +2,7 @@ pipeline {
     agent any
     
     environment {
-        PYTHON_PATH = "E:\Python\python3.12.5\python.exe"
+        PYTHON_PATH = "E:\\Python\\python3.12.5\\python.exe"
     }
     
     stages {
@@ -84,4 +84,5 @@ pipeline {
         success { echo 'CI/CD pipeline completed successfully!' }
         failure { echo 'CI/CD pipeline failed!' }
     }
+
 }
